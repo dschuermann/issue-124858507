@@ -1,3 +1,5 @@
-# Creating AARs with private dependencies
+# Issue 124858507
 
-This is an example to demonstrate a way to use private libraries and automatically package them into an AAR as explained in a corresponding blog post at https://medium.com/@jedri/creating-aars-with-private-dependencies-b17de89c6b7c#.rrl6x3yy6
+Project to reproduce https://issuetracker.google.com/issues/124858507
+
+When using ProGuard, packagingOptions exludes do not work and still end up in the classes.jar inside the built aar library.
